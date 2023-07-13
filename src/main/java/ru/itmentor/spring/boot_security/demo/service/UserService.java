@@ -13,7 +13,7 @@ public interface UserService {
     void add(User user);
     User getUserById(int id);
     void updateUser(User updateUser);
-    void deleteUser(int id);
+    User deleteUser(int id);
     Set<Role> getSetOfRoles(List<String> id);
     User findByUserName(String name);
     User getUserByEmail(String email);
